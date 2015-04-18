@@ -11,9 +11,7 @@
 |
 */
 
-Route::resource('Pendapatan', 'ApiReceiverPendapatan');
 
 Route::get('/', 'WelcomeController@index');
 
-Route::get('api/android', 'ApiReceiverPendapatan@index');
 
